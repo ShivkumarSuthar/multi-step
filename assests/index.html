@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Addition meta tags -->
+    <meta name="description" content="Heliverse Assignment 2022" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Shivkumar suthar" />
+    <!-- ------------------ -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heliverse Assignment 2022</title>
+    <!-- Icomoon Icon Fonts-->
+    <script src="https://kit.fontawesome.com/5bfc854fcc.js" crossorigin="anonymous"></script>
+    <!-- Custom css link -->
+
+    <!-- bootstrap CSS -->
+<link type="text/stylesheet" rel="stylesheet" href="./assests/bootstrap/css/bootstrap.css">
+<!-- ------------------------ -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- ------------------------------- -->
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <div class="row">
+            <!-- image div -->
+
+
+            <!-- text div -->
+            <div class=" col-10 text">
+                <header>Registration Form</header>
+                <h4  style="text-align: center;color: blue;">You'r Most Welcome</h6>
+                    <br><br>
+                <!-- <div class="progress-bar">
+                    <div class="steps">
+                       
+                        <div class="buttet">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                          
+                        </div>
+                    </div>
+                    <div class="steps">
+                       
+                        <div class="buttet">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                        </div>
+                    </div>
+                    <div class="steps">
+                    
+                        <div class="buttet">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                        </div>
+                    </div>
+                    <div class="steps">
+                      
+                        <div class="buttet">
+                            <span><i class="fa-solid fa-circle"></i></span>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="form-outer">
+                    <form id="form" action="#" method="POST">
+                        <!-- 1st step -->
+                        <div class="page page1" id="form1">
+                            <div class="tittle">Basic info</div>
+
+                            <div class="field">
+                                <label for="fname"> Name: </label>
+                                <!-- <input type="text" name="fname" id="fname" /> -->
+                                <input type="text" name="name" id="lname   " />
+                            </div>
+
+                            <div class="field">
+                                <label for="mail">email: </label>
+                                <input type="email" name="email" id="email" />
+                            </div>
+                            <div class="field NextBtn">
+
+                                <a  class="next-1 next button" id="next">Next</a>
+                            </div>
+
+                        </div>
+
+
+                        <!-- --------------- -->
+
+                        <!-- 2nd step -->
+                        <div class="page page2" id="form2">
+                            <div class="tittle">Personal info</div>
+                            <div class="field">
+                                <label for="mobile"> Mobile no: </label>
+                                <input type="number" name="mobile" id="mobile" />
+                            </div>
+
+                            <div class="field">
+                                <label for="DOB">DOB</label>
+                                <input type="date" name="DOB" id="DOB" />
+                            </div>
+
+
+                            <div class="field">
+                                <label for="gender">Gender</label>
+                                <select name="gender" id="gender">
+                                    <option  value="Other">Other</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+
+                                <label for="work">Work: </label>
+                                <input type="text" name="work" id="work"/>
+                            </div>
+                            <div class="field btns">
+                                <a class="prev-1 prev button" id="back">Previous</a>
+                                <a class="next-1 next button" id="next2">Next</a>
+                            </div>
+                        </div>
+
+
+
+                        <!-- --------------- -->
+
+                        <!-- 3rd step -->
+
+                        <div class="page page3" id="form3">
+                            <div class="tittle">Residencial info</div>
+                            <div class="field">
+                                <label for="Address"> Address: </label>
+                                <input type="text" name="address" id="address" />
+                            </div>
+
+                            <div class="field">
+                                <label for="city">City</label>
+
+                                <input type="text" name="city" id="city" />
+                            </div>
+
+                            <div class="field">
+                                <label for="PIN">Area PIN: </label>
+                                <input type="text" name="PIN" id="PIN" />
+                            </div>
+                            <div class="field">
+                                <label for="state">State: </label>
+                                <input type="text" name="state" id="state"/>
+
+                            </div>
+                            <div class="field btns">
+
+                                <a class="prev-1 prev button" id="back2">prieviou</a>
+                                <a class="next-1 next button" id="next3">Next</a>
+                            </div>
+                        </div>
+
+                        <!-- ------------------------------- -->
+
+                        <!-- 4th step -->
+                        <div class="page page4" id="form4">
+                            <div class="tittle">Qualification info</div>
+                            <div class="field">
+                                <label for="edu"> Select Eduacation: </label>
+                                <select name="edu" id="edu">
+                                    <option value="Master">Master</option>
+                                    <option value="Bachlore">Bachlore</option>
+                                    <option value="other">other</option>
+                                </select>
+                            </div>
+
+                            <div class="field">
+                                <label for="special">specialiation:</label>
+
+                                <input type="text" name="special" id="special" />
+                            </div>
+
+                            <div class="field">
+                                <input type="text" name="marks" id="marks" placeholder="Marks obtained" />
+                            </div>
+
+
+                            <div class="field">
+                                <input type="text" id="p-year" name="p-year" placeholder="passing year" />
+                            </div>
+                            <div class="field">
+                                <input type="text" id="university" name="university" placeholder="university" />
+                            </div>
+                            <div class="field btns">
+                                <a class="prev-1 prev button" id="back3">Previous</a>
+                                <button style="height: 50px;padding-top:1px" type="submit" class="next-1 next button" id="submit">Submit</button>
+                            </div>
+
+                        </div>
+
+                    </form>
+                    <!-- ------------------------------------- -->
+
+
+                </div>
+            </div>
+
+        </div>
+
+<p id="result"></p>
+
+
+</body>
+<script>
+    var form=document.getElementById('form');
+    form.addEventListener('click',function(event){
+        event.preventDefault();
+    
+        var name=document.getElementById('name').value;
+        console.log(name);
+    })
+    
+    
+                var form1 = document.getElementById('form1');
+                var form2 = document.getElementById('form2');
+                var form3 = document.getElementById('form3');
+                var form4 = document.getElementById('form4');
+    
+                var next = document.getElementById('next');
+                var next2 = document.getElementById('next2');
+                var back = document.getElementById('back');
+                var back2 = document.getElementById('back2');
+    
+                next.onclick = function () {
+                    form1.style.marginLeft = "-25%";
+                    bullet[current - 1].classList.add("active");
+                }
+                next2.onclick = function () {
+                    form2.style.marginLeft = "-25%";
+                }
+                next3.onclick = function () {
+                    form3.style.marginLeft = "-25%";
+                }
+    
+                back.onclick = function () {
+                    form1.style.marginLeft = "0%";
+                }
+                back2.onclick = function () {
+                    form2.style.marginLeft = "0%";
+                }
+                back3.onclick = function () {
+                    form3.style.marginLeft = "0%";
+                }
+            
+                const bullet=document.querySelector(".steps .buttet");
+                let max=4;
+                let current=1;
+
+    
+    
+    
+            </script>
+    
+            <script src="/assests/bootstrap/js/bootstrap.js"></script>
+
+</html>

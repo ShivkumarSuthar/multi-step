@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: high tower text;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+overflow: hidden;
+  min-height: 100vh;
+  background:-webkit-linear-gradient(bottom,#0250c5, #d43f8d);
+  text-align: center;
+}
+.container{
+
+  background: #fff;
+  border-radius:5px ;
+  text-align: center;
+  /* padding: 50px 35px 30px 5px; */
+  overflow: hidden;
+  
+}
+.container header{
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+
+.container .text .form-outer{
+ 
+/* padding-left: 20px; */
+/* padding-right: 20px; */
+
+  width: 500px;
+}
+.form-outer form{
+
+display: flex;
+width: 400%;
+
+} 
+ .form-outer form .page{ 
+
+  width: 500px;
+  
+  
+  transition: ease-in-out 0.1s;
+  
+
+ }
+ 
+
+.form-outer form .page .tittle{
+  position: relative;
+left: 5%;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+.form-outer form .page .field{
+position: relative;
+left: 5%;
+  height: 45px;
+  width:90%;
+  margin: 45px 0px;
+position: relative;
+display: flex;
+} 
+form .page .field select{
+width: 100%;
+padding-left: 15px;
+font-size: 17px;
+font-weight: 500;
+}
+
+ .form-outer form .page .field input{
+
+height: 100%;
+
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+ .form-outer form .page .field #fname,#lname{
+  height: auto;
+  width: 50%;
+} 
+
+.form-outer form .page .field label{
+  text-align: start;
+   position: absolute;
+   top: -30px;
+   font-weight: 500;
+} 
+.form-outer form .page .field .button{
+  width: 100%;
+  height: calc(100% - 10px);
+  margin-top: -20px;
+  border: none;
+  background: #d43f8d;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+.page .a{
+  width:400px ;
+
+}
+.form-outer form .page .field .button:hover{
+  background: #000;
+}
+.form-outer form .page .btns .button{
+margin-top: -20px!important;
+}
+
+form .page  .btns button .prev{
+  margin-right: 10px ;
+  font-size: 17px;
+
+}
+
+form .page  .btns .next{
+  margin-left: 5px ;
+  font-size: 17px;
+
+}
+.container .progress-bar{
+  display: flex;
+  margin: 50px 0;
+}
+.container .text .progress-bar .steps{ 
+  text-align: center;
+  width: 100%;
+}
+
+
